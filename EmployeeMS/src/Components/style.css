@@ -1,0 +1,54 @@
+.loginPage{
+    background: url('Images/emsimage.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    background: linear-gradient(rgba(11,11,11,0.5),rgba(10,10,10,0.5)),url("Images/emsimage.jpeg");
+}
+.loginForm{
+    background-color:rgba(13, 29, 59, 0.9);
+    color: white;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.employee_image{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+
+.delete_employee{
+    color: blue;
+    cursor: pointer;
+}
+
+.testCard {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgb(187, 190, 192);
+  }
+.setcss{
+    position: sticky;
+    top:0;
+}
+
+.profile_image{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+}
+
+.employeePage {
+    background-color: rgb(133, 135, 135);
+    /* background: url("Images/employeeprf.jpg"); Adjust the path accordingly */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Use 'cover' to make the background cover the entire container */
+    /* background-color: gray; Fallback color in case the image is not available */
+    height: 90vh; /* Set the height to 100% of the viewport height */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
